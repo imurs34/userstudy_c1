@@ -61,7 +61,7 @@ function Controller({ reset, togglePlay, jump, disableControl }) {
                             {currentTime}/{durationTime}
                         </p>
                     </Time>
-                    <Button onClick={toggleMobileMode} isactive={mobileMode}>
+                    {/* <Button onClick={toggleMobileMode} isactive={mobileMode}>
                         <Mobile />
                     </Button>
                     <Button onClick={toggleDarkMode} isactive={darkMode}>
@@ -72,16 +72,16 @@ function Controller({ reset, togglePlay, jump, disableControl }) {
                     </Button>
                     <Button onClick={reset}>
                         <Revision />
-                    </Button>
+                    </Button> */}
                 </div>
-                <RightButtons deActivate={!disableControl}>
+                {/* <RightButtons deActivate={!disableControl}>
                     <ToggleButton onClick={toggleFrame} isactive={withFrame}>
                         <p>Template</p>
                     </ToggleButton>
                     <ToggleButton onClick={toggleVideo} isactive={withVideo}>
                         <p>Instructor</p>
                     </ToggleButton>
-                </RightButtons>
+                </RightButtons> */}
             </Buttons>
         </Container>
     );

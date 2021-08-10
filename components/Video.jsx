@@ -44,7 +44,7 @@ function Video({ src, content, videoLocation }, ref) {
             return
         }
         const [, , w, h] = vl.box_info;
-        const targetWidth = window.innerWidth * 0.2;
+        const targetWidth = window.innerWidth * 0.1;
         const targetHeight = (targetWidth / w) * h;
         setPositionState((prev) => ({ width: `${targetWidth}px`, height: `${targetHeight}px`, x: window.innerWidth - targetWidth, y: window.innerHeight - targetHeight - 70 }));
 

@@ -6,7 +6,7 @@ const activityAtom = atom({
     slide: 0,
 });
 
-const lockAtom = atom(false);
+const lockAtom = atom(true);
 const frameHeightAtom = atom();
 const playingAtom = atom(false);
 const percentAtom = atom(0);
